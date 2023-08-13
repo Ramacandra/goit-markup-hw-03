@@ -1,0 +1,335 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ :root {
+   --blue-text: rgb(33, 150, 243,1);
+   --dominant-color: rgb(33, 33, 33,1);
+   --white-font: rgb(255,255,255, 1);
+   --background-title: rgb(47, 48, 58, 1);
+   --paragraph-color: rgb(117, 117, 117,1); 
+   --second-background: rgba(245, 244, 250, 1);
+
+ }
+
+ body {
+font-family:'Roboto', sans-serif ;
+color: var(--dominant-color);
+ }
+
+ .icon {
+color: var(--blue-text);
+font-family:'Raleway', sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-decoration: none;
+ }
+
+.navigation-bar .navigation-link {
+color: var(--dominant-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+ }
+
+ .navigation-bar .navigation-link:hover {
+   color: var(--blue-text);
+ }
+
+ .navigation-bar .navigation-link:focus {
+  color: var(--blue-text);
+ }
+
+ 
+ .navigation-item {
+   list-style: none;
+ }
+
+ .contacts .contacts-link {
+   color: var(--paragraph-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   text-decoration: none;
+    }
+   
+    .contacts .contacts-link:hover {
+      color: var(--blue-text);
+    }
+
+    .contacts .contacts-link:focus {
+      color: var(--blue-text);
+    }
+    .contacts-item {
+      list-style: none;
+    }
+
+    .principal-section .main-title {
+      color: var(--white-font);
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.4;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .principal-section {
+      background-color: var(--background-title);
+      text-align: center;
+    }
+
+    .principal-section .request-button {
+      color:var(--white-font);
+      background-color: var(--blue-text);
+      font-weight:700;
+      line-height: 1.9;
+      letter-spacing: 0.06em;
+      width: 261px;
+      height: 50px;
+      border-radius:4px;
+      border-color: transparent;
+      cursor:pointer;
+    }
+
+    .about-us-list .about-titles {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .about-us-list .about-text {
+      color: var(--paragraph-color);
+      font-size: 14px;
+      line-height: 1.8;
+      letter-spacing: 0.03em;
+    }
+ .about-us-item {
+  list-style: none;
+ }
+
+.our-services .services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.services-item {
+  list-style: none;
+}
+.our-team {
+background-color: var(--second-background);
+}
+
+.our-team .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-item .team-name {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 3%;
+  text-align: center;
+}
+.team-item .team-position {
+  color:var(--paragraph-color);
+  line-height: 1.2; 
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-item {
+  list-style: none;
+}
+
+
+.footer-list .link-address {
+  color:var(--white-font);
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+  
+}
+
+.footer-list .contact-link{
+  color:var(--paragraph-color);
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-item {
+  list-style: none;
+}
+
+.page-footer {
+  background-color: var(--background-title);
+}
+
+/*Segunda pagina */
+
+.portfolio-title {
+  display: none;
+}
+
+.portfolio-subtitle {
+  display:none;
+}
+
+.navigation-buttons .button-nav {
+  font-weight:500;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  height: 38px;
+  border-radius: 4px;
+  border: transparent;
+  cursor:pointer;
+}
+.navigation-buttons .button-nav:hover {
+  color:var(--white-font);
+  background-color: var(--blue-text);
+
+}
+.navigation-buttons .button-nav:focus {
+  color:var(--white-font);
+  background-color: var(--blue-text);
+}
+
+.button-item {
+  list-style: none;
+  
+}
+
+.projects-list .project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  
+}
+.projects-list .description-project {
+  color:var(--paragraph-color) ;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.projects-item {
+  list-style: none;
+  cursor: pointer;
+}
+
+/*Tercera tarea*/
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*Barra de bavegacion*/
+.container-nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.icon {
+  padding-left: 40px;}
+
+.navigation-list {
+  display:flex;
+  gap:50px;
+}
+
+.contacts {
+  display:flex;
+  gap:50px;
+}
+
+/*Seccion Principal*/ 
+.principal-section {
+  height: 600px;
+  align-items: center;
+}
+
+/*Seccion About us*/
+.about-us-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px
+}
+
+/*Seccion servicios*/
+.services-list {
+  display:flex;
+  gap: 30px;
+  padding-top:55px;
+}
+
+/*Seccion team*/
+.team-list {
+display: flex;
+gap: 37px;
+padding-top: 50px;
+}
+
+.team-item {
+background-color: var(--white-font);
+box-shadow:  0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+/*Portfolio*/
+
+.navigation-buttons {
+  display:flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.projects-list {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis:calc((100% - 2 * 30px)/3);
+  padding-top:56px ;
+}
+
+.projects-item {
+  border: 1px solid rgba(238, 238, 238, 1);
+  margin-bottom: 30px;
+}
+
+.projects-item:hover {
+box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
