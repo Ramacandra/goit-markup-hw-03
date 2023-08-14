@@ -243,8 +243,8 @@ background-color: var(--second-background);
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 /*Barra de bavegacion*/
@@ -262,6 +262,11 @@ background-color: var(--second-background);
 .icon {
   padding-left: 40px;}
 
+.navigation-bar {
+  display: flex;
+  align-items: center;
+}
+
 .navigation-list {
   display:flex;
   gap:50px;
@@ -274,6 +279,7 @@ background-color: var(--second-background);
 
 /*Seccion Principal*/ 
 .principal-section {
+  display: flex;
   height: 600px;
   align-items: center;
 }
@@ -307,6 +313,11 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 }
 
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 
 /*Portfolio*/
 
@@ -320,13 +331,13 @@ border-radius: 4px;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-basis:calc((100% - 2 * 30px)/3);
   padding-top:56px ;
 }
 
 .projects-item {
   border: 1px solid rgba(238, 238, 238, 1);
   margin-bottom: 30px;
+  flex-basis:calc((100% - 2 * 30px)/3);
 }
 
 .projects-item:hover {
