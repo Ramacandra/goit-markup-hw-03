@@ -126,6 +126,7 @@ text-decoration: none;
 }
 .our-team {
 background-color: var(--second-background);
+height: 648px;
 }
 
 .our-team .team-title {
@@ -317,6 +318,7 @@ border-radius: 4px;
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0;
 }
 
 
