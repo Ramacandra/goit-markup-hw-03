@@ -282,6 +282,7 @@ background-color: var(--second-background);
   display: flex;
   height: 600px;
   align-items: center;
+  margin: 0;
 }
 
 /*Seccion About us*/
