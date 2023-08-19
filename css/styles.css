@@ -48,6 +48,7 @@ text-decoration: none;
    list-style: none;
  }
 
+
  .contacts .contacts-link {
    color: var(--paragraph-color);
    font-weight: 500;
@@ -64,6 +65,8 @@ text-decoration: none;
     .contacts .contacts-link:focus {
       color: var(--blue-text);
     }
+
+  
     .contacts-item {
       list-style: none;
     }
@@ -164,6 +167,9 @@ height: 648px;
   font-style: normal;
   
 }
+.footer-list .link-address:hover {
+  color:var(--blue-text)
+}
 
 .footer-list .contact-link{
   color:var(--paragraph-color);
@@ -172,6 +178,10 @@ height: 648px;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
+}
+
+.footer-list .contact-link:hover {
+  color:var(--blue-text);
 }
 
 .footer-item {
